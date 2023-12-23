@@ -6,13 +6,15 @@
   "permissions": [
     "activeTab",
     "storage",
-    "https://api.gemini.com/*" // Adjust for Gemini Pro API endpoint
+    "https://api.gemini.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon.png" // Replace with your icon path
   },
   "background": {
-    "service_worker": "background.js"
-  }
+    "service_worker": "background.js",
+    "persistent": false
+  },
+  "key": "AIzaSyBRE-acuSQPvBxa1-CQBdXVgQep4Hf32bk"
 }

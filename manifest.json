@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Chat",
+  "version": "1.0",
+  "description": "Chat with the powerful Gemini Pro AI directly in your browser.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://api.gemini.com/*" // Adjust for Gemini Pro API endpoint
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png" // Replace with your icon path
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

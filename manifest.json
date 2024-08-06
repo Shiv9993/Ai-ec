@@ -10,11 +10,11 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icon.png" // Replace with your icon path
+    "default_icon": "icon.png" // reploace with your icon path
   },
   "background": {
     "service_worker": "background.js",
     "persistent": false
   },
-  "key": "AIzaSyBRE-acuSQPvBxa1-CQBdXVgQep4Hf32bk"
+  "key": "API KEY"
 }
